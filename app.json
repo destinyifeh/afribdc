@@ -25,8 +25,8 @@
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION"
       ],
-      "package": "com.destech.afribdc",
-      "googleServicesFile": "./google-services.json"
+      "package": "com.destech.afribdc"
+      // "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
@@ -88,9 +88,7 @@
           "icon": "./assets/media/notification_icon.png",
           "color": "#d4b300",
           "defaultChannel": "default",
-          "sounds": [
-            "./assets/media/notification_sound.wav"
-          ],
+          "sounds": ["./assets/media/notification_sound.wav"],
           "enableBackgroundRemoteNotifications": false
         }
       ],
